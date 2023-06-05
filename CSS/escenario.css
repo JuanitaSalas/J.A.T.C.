@@ -1,0 +1,23 @@
+.scene{
+    width: 100vw;
+    height: 100vh;
+    background-color: burlywood;
+}
+h1{
+    font-family: "press  start 2P", cursive;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    position: fixed;
+    top: 50px;
+}
+div,
+h2,h
+a{
+    padding: 0,o,10px, 10px;
+}
+@media(width>=300px);{}
+@media(width>=500px);{}
+@media(width>=700px);{}
+/*veija forma*/
+@media(min-width>=300px);{}
