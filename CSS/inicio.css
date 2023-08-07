@@ -1,0 +1,26 @@
+#fondo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://play-lh.googleusercontent.com/6xWeXuSXzogMjmKQ_Ft0AmcLND51wYI8s7aNi1q9FvwbZ7Uu0lJVa0YBjoQnCnDO7ZYB);
+    
+
+}
+#nombrejuego{
+    color: white;
+    text-align: center;
+    font-size:300%;
+}
+.caja{
+    ;
+}
+.botonInicio{
+    border: 2px solid #65b7cc;
+    padding: 20px;
+    background-color: #65b7cc;
+    color: white;
+    font-family:sans-serif;
+    border-radius: 50px;
+    text-decoration: none;
+    
+}
