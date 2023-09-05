@@ -1,14 +1,37 @@
 body{
-    background: rgb(82, 78, 78);
+    background: black;
+    height: 100%;
 }
-#tablero1{
-    width: 400px;
-    height: 400px;
-    margin-left: 450px;
-    margin-top: 120px;
+html{
+    height: 100%;
 }
-#botones{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+
+#caja1{
+    position: absolute;
+    width: 50vw;
+    height: 70vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-template-rows: 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5%;
+    border: ;
 }
+
+
+#cajitas{
+    display: grid;
+    grid-template-columns: 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5%;
+    border: 1px solid white;
+}
+
+#caja2{
+    position: absolute;
+    width: 50vw;
+    height: 70vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-template-columns: 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5%;
+    }

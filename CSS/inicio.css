@@ -2,8 +2,9 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url(https://play-lh.googleusercontent.com/6xWeXuSXzogMjmKQ_Ft0AmcLND51wYI8s7aNi1q9FvwbZ7Uu0lJVa0YBjoQnCnDO7ZYB);*/
-  /*background-image: url('../imagen/dotsgameinicio.png');*/
+  background-image: url(https://play-lh.googleusercontent.com/6xWeXuSXzogMjmKQ_Ft0AmcLND51wYI8s7aNi1q9FvwbZ7Uu0lJVa0YBjoQnCnDO7ZYB);
+ /* background-image: url(../imagen/juego2.jpg);*/
+
 }
 #nombrejuego{
  color: white;
@@ -16,7 +17,7 @@
  animation: movie-box infinite alternate running;
 
 }
-@keyframes moving-box{
+/*@keyframes moving-box{
   0%{
       top: 10%;
 
@@ -24,7 +25,7 @@
   100%{
      top:80% ;
   }
-}
+}*/
 #botonInicio{
     height: 370px;
     display: flex;
@@ -42,7 +43,7 @@ body{
     position:relative;
     padding:20px 50px;
     background:white;
-    text-decoration: none;*/
+    text-decoration: none;
     font-size:50px;
     color:black;
     border-top-right-radius:30px;
