@@ -1,37 +1,3 @@
 body{
     background: black;
-    height: 100%;
 }
-html{
-    height: 100%;
-}
-
-#caja1{
-    position: absolute;
-    width: 50vw;
-    height: 70vh;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    display: grid;
-    grid-template-rows: 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5%;
-    border: ;
-}
-
-
-#cajitas{
-    display: grid;
-    grid-template-columns: 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5%;
-    border: 1px solid white;
-}
-
-#caja2{
-    position: absolute;
-    width: 50vw;
-    height: 70vh;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    display: grid;
-    grid-template-columns: 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5% 12,5%;
-    }
